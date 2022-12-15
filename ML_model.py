@@ -23,7 +23,7 @@ Dropping the unwanted columns
 data_model.drop(['Column 1', 'Unnamed: 0.2', 'Unnamed: 0.1', 'Unnamed: 0', 'IPR-AP', 'IPR','Sum(OBSrc) agg PTM-ID level','PTM-ID', 'UID-NP', 'UID', 'Resi', 'ptm_type', 'per_PRC', 'UID_2','Sum(KFSC) agg PTM-ID level'], axis=1, inplace=True)
 
 '''
-The dependent variable is the Known PTM ID column - 1 or 0
+The dependent variable is the Known PTM ID column - 1 or 0.
 X is the every other column other than Known PTM ID 
 '''
 X = data_model.loc[:, data_model.columns != 'Known at the PTM-ID level']
