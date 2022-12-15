@@ -34,7 +34,7 @@ merged_df = pd.merge(deconv_df, new_df,  how='left', left_on=['UID', 'NP'], righ
 dropped_df = merged_df.dropna(subset = ['UID_2'])
 
 dropped_df.to_csv("Updated_deconv_dropped.csv") # 512015 # 76,478
-
+print(dropped_df)
 #for row, column in deconv.iterrows():
 #     list_motif_ranks = []
 #     if column[19] <= 2:
