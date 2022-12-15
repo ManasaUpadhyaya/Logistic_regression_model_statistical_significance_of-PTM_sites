@@ -41,7 +41,7 @@ for UID_PTM in interpro_result_pos: # the two dictionaries are looped through to
                     result.append(result_pos[1])
                     result.append(result_pos[2])
                     result_appended.append(result)
-# result appended is the list of the UID, pos and the start position, stop position and e-value of the motif the site falls into
+# result appended is the list of the UID, pos and the start position, stop position and e-value of the motif the site falls into.
 result_df = pd.DataFrame(result_appended)
 result_df.columns = ["UID","Site_position","Motif_start_pos", "Motif_stop_pos","E-value"]
 result_df.to_csv("Result_table.csv") # final .csv file with the above mentioned columns.
