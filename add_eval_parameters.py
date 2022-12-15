@@ -1,7 +1,7 @@
 import pandas as pd
 
 '''
-Thsi script computes the values of the average, minimum and maximum values and appends it into separate dictioanaries"
+Thsi script computes the values of the average, minimum and maximum values and appends it into separate dictionaries."
 '''
 result_check  = {}
 results_within_motif = pd.read_csv("Result_table.csv")
