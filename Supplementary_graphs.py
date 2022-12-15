@@ -2,7 +2,7 @@
 
 The script can be used to produce the graphs in the supplementary section
 Matplotlib is the library used
-The present script plots the minimum_eval for each ranks of motifs
+The present script plots the minimum_eval for each ranks of motifs.
 The script can be changed by calling different columns to generate graphs for other parameters like average and maximum evalue too
 '''
 
